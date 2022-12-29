@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dfuCaYuN7XIE7KlxzXcfe9H3g3bEQ9eXd71FhQjxz22rTo8i5rCfIjC4t3+wg/84UzzACaz/CUfF81OW/VNRoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Donald Karasz\\Documents\\GitHub\\BionicleKanohiMasksOfPower\\1.4\\Source\\BionicleKanohiMasksOfPower\\BionicleKanohiMasksOfPower.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Donald Karasz\\.nuget\\packages\\krafs.publicizer\\1.0.2\\krafs.publicizer.1.0.2.nupkg.sha512",
+    "C:\\Users\\Donald Karasz\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3580\\krafs.rimworld.ref.1.4.3580.nupkg.sha512",
+    "C:\\Users\\Donald Karasz\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}
