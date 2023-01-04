@@ -25,7 +25,7 @@
 	  <Flammability>0</Flammability>
     </statBases>
     <relicChance>2</relicChance>
-    <techLevel>Medieval</techLevel>
+    <techLevel>Neolithic</techLevel>
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>

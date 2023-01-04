@@ -2,13 +2,13 @@
 <Defs>
   
   <ThingDef Name="BKMOP_ApparelBionicleMaskBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
-    <techLevel>Medieval</techLevel>
+    <techLevel>Neolithic</techLevel>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1, 1)</drawSize>
     </graphicData>
     <tradeTags>
-      <li>HiTechArmor</li>
+      <li>Artifact</li>
     </tradeTags>
     <generateCommonality>2</generateCommonality>
     <statBases>

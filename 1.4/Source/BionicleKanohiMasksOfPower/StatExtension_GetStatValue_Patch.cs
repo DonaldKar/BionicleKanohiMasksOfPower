@@ -31,6 +31,11 @@ namespace BionicleKanohiMasksOfPower
 					__result *= 2f;
 					//explanation?.Append($"{apparel4.Label.CapitalizeFirst()}: x{2f.ToStringPercent()}");
 				}
+				else if ((stat == StatDefOf.ToxicResistance || stat == StatDefOf.ToxicEnvironmentResistance) && pawn.Wears(BionicleDefOf.BKMOP_Kaukau, out var apparel5) && apparel5.IsMasterworkOrLegendary())//doubles research speed with rau
+				{
+					__result = 1f;
+					//explanation?.Append($"{apparel4.Label.CapitalizeFirst()}: x{2f.ToStringPercent()}");
+				}
 				else if (stat == StatDefOf.IncomingDamageFactor && pawn.IsDuplicate())//duplicates take no damage
                 {
 					__result *= 0f;

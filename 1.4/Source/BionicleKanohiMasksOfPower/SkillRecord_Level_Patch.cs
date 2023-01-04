@@ -5,7 +5,7 @@ using Verse;
 
 namespace BionicleKanohiMasksOfPower
 {
-    [HarmonyPatch(typeof(SkillRecord), "Level", MethodType.Getter)]
+    [HarmonyPatch(typeof(SkillRecord), "Aptitude", MethodType.Getter)]
 	public static class SkillRecord_Level_Patch
 	{
 		public static void Postfix(SkillRecord __instance, ref int __result)
