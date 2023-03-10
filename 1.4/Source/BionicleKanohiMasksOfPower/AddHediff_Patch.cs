@@ -15,6 +15,7 @@ namespace BionicleKanohiMasksOfPower
 		{
 			if (___pawn.Wears(BionicleDefOf.BKMOP_Kaukau, out var apparel) && apparel.IsMasterworkOrLegendary() && (hediff.def?.defName == "SpaceHypoxia" //kaukau prevents sos2 oxygen deprivation,toxic buildup, heat stroke, and hypothermia
 				|| hediff.def == HediffDefOf.ToxicBuildup
+				|| hediff.def?.defName == "Universum_Suffocation_Hediff"
 				|| hediff.def == HediffDefOf.Heatstroke
 				|| hediff.def == HediffDefOf.Hypothermia
 				|| hediff.def == HediffDefOf.ToxGasExposure))
